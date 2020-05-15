@@ -52,9 +52,8 @@ def show_progress(block_num, block_size, total_size):
 def sub_string(target, word):
     return target[target.rfind(word) + len(word): len(target)]
 
+# http://podcastfile.imbc.gscdn.com/originaldata/nightletter/NIGHTLETTER_20200511.mp3
 # http://podcastfile.imbc.gscdn.com/originaldata/starnight/STARNIGHT_20200511.mp3
-# http://podcastfile.imbc.gscdn.com/originaldata/starnight/STARNIGHT_20200511.mp3
-# http://podcastfile.imbc.gscdn.com/originaldata/nightletter/
 
 fileKey = "STARNIGHT_"
 savePathRoot = "H:\\radio\\STARNIGHT\\"
